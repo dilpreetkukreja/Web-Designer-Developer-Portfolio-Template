@@ -1,0 +1,257 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <style type="text/css">
+        
+        .portfolio-section [class*='col-']{
+          
+            display:flex;
+            flex-direction: column;
+            
+           
+        }
+        .portfolio-section img{
+            border:1px solid black;
+            height:200px;
+        }
+        .img-caption{
+             border:1px solid black;
+             flex:1 1 0;
+             margin-bottom: 5px;
+        }
+        .portfolio-section img{
+            
+            object-fit: contain;
+            background-color:black;
+        }
+        /*------- image overlay effect----*/
+        .image-wrapper {
+          position: relative;
+          
+        }
+
+        .image {
+          opacity: 1;
+          display: block;
+          width: 100%;
+          
+          transition: .5s ease;
+          backface-visibility: hidden;
+        }
+
+        .middle {
+          transition:all .5s ease;
+          opacity: 0;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+          text-align: center;
+
+        }
+        .middle a{
+            text-decoration: none;
+        }
+
+        .image-wrapper:hover .image {
+          opacity: 0.3;
+        }
+
+        .image-wrapper:hover .middle {
+          opacity: 0.8;
+          border-radius: 10px;
+          background-color:black;
+        }
+        .text {
+          color: #ffffff;
+          font-weight:bold;
+          font-size: 16px;
+          padding: 16px 32px;
+        }
+        /*----- effect end -----*/       
+
+
+    </style>
+</head>
+<body>
+	<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container background-color-section">
+        <h2 class="text-center">Portfolio</h2>
+    	<div class="row portfolio portfolio-section">
+    		<div class="col-sm-3">
+                <a href="https://asha806.github.io/project-bootstrap/">
+                    <div class="image-wrapper">
+        			    <img class="image img-fluid" src="images/blvd.png" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+    			<div class="img-caption">
+    				This is image caption
+    			</div><!---image-caption div ---> 
+    		</div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="https://asha806.github.io/project-Getty-Museum/">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/getty-museum.png" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+                <div class="img-caption">
+                    This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="https://asha806.github.io/Project-Restaurant/">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/restaurant.png" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+                <div class="img-caption">
+                    This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="https://asha806.github.io/project-california-plants/">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/california-plant.png" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+                <div class="img-caption">
+                    This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="images/hugo.jpg">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/hugo.jpg" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+                <div class="img-caption">
+                    This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="images/Show-your type-asha-01.jpg">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/Show-your type-asha-01.jpg" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+                <div class="img-caption">
+                    This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="images/Drop-cap.jpg">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/Drop-cap.jpg" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+                <div class="img-caption">
+                    This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="images/csm.jpg">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/csm.jpg" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+                <div class="img-caption">
+                    This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="images/b.png">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/b.png" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                Demo
+                            </div>
+                        </div><!--middle div-->
+                    </div><!--img-wrapper div-->
+                </a>
+                <div class="img-caption">
+                    This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+            <div class="col-sm-3">
+                <a href="images/psd.png">
+                    <div class="image-wrapper">
+                        <img class="image img-fluid" src="images/psd.png" alt="">
+                        <div class="middle">
+                            <div class="text">
+                                demo
+                            </div>
+                        </div><!--middle div-->
+                        </div><!--img-wrapper div-->
+                   </a>
+                <div class="img-caption">
+                        This is image caption
+                </div><!---image-caption div ---> 
+            </div> <!---col div--->
+    	</div><!---row div-->
+    </div><!--container div-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
+</body>
+</html>
